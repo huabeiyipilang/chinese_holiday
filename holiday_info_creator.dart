@@ -64,7 +64,23 @@ void main(List<String> args) {
   holidayList.add(HolidayInfo("20210504", HolidayInfo.HOLIDAY, "五一"));
   holidayList.add(HolidayInfo("20210505", HolidayInfo.HOLIDAY, "五一"));
   holidayList.add(HolidayInfo("20210508", HolidayInfo.WORK, ""));
+  holidayList.add(HolidayInfo("20210612", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20210613", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20210614", HolidayInfo.HOLIDAY, "端午节"));
+  holidayList.add(HolidayInfo("20210919", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20210920", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20210921", HolidayInfo.HOLIDAY, "中秋节"));
+  holidayList.add(HolidayInfo("20211001", HolidayInfo.HOLIDAY, "国庆节"));
+  holidayList.add(HolidayInfo("20211002", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20211003", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20211004", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20211005", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20211006", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20211007", HolidayInfo.HOLIDAY, "休"));
+  holidayList.add(HolidayInfo("20211009", HolidayInfo.WORK, ""));
 
+  // 2022
+  
   Map resp = {
     "update_time": DateTime.now().millisecondsSinceEpoch,
     "date_list": holidayList
